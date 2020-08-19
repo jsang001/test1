@@ -1,0 +1,49 @@
+!DOCTYPE html>
+<html>
+  
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+</head>
+  
+  <Script>
+    //This is the beginning of the function for the calculator project
+    //Jose  Sanguinetti testing GitHub
+    
+    function calculateFunction(){
+      
+      //Get value from first textbox
+      var a = document.getElementById("input1id").value;
+      
+      //Get value from the second textbox
+      var b = document.getElementById("input2id").value;
+      
+      //Add the values
+      var sum = parseFloat(a) + parseFloat(b);
+      
+      //Print the result to the page
+      document.write(sum);
+         
+    }
+    </script>
+  
+<body>
+ <p>VetsinTech supports our current and returning veterans with re-integration services, 
+   and by connecting them to the national technology ecosystem. ViT is committed to bringing 
+   together a tech-specific network, resources, and programs for our veterans interested in 
+   Education, Entrepreneurship, and Employment - the 3E’s!</p> 
+  
+  <h1> Sample Claculator </h1>
+  <p>Enter values in the two textboxes and pres the button to see the result</p>
+  
+    <input type="text" name = "Input1" id="input1id"/>
+  +
+  
+    <input type="text" name = "Input2" id="input2id"/>
+  
+    <input type="submit" name ="calculateButtton" id="calculateButton()" onClick="calculateFunction()" value="HammerTime"/>
+           
+</body>
+</html>
